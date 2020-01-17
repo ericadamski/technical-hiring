@@ -1,0 +1,21 @@
+{
+  "name": "technical-hiring",
+  "version": "1.0.0",
+  "description": "A presentation on technical hiring for ReactOttawa - January 2020",
+  "main": "index.js",
+  "repository": "git@github.com:ericadamski/technical-hiring.git",
+  "author": "Eric Adamski <er.adamski@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "mdx-deck": "^3.0.13"
+  },
+  "scripts": {
+    "start": "mdx-deck index.mdx",
+    "dev": "mdx-deck index.mdx",
+    "build": "mdx-deck build index.mdx"
+  },
+  "resolutions": {
+    "mdx-deck/gatsby": "2.18.4",
+    "mdx-deck/gatsby-plugin-compile-es6-packages": "2.1.0"
+  }
+}
